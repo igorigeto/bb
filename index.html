@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bouncing Ball</title>
+        <script src="./models/ball.model.js"></script>
+        <script src="./helpers/calculator.js"></script>
+        <script src="./helpers/renderer.js"></script>
+        <script src="./test/test.js"></script>
+        <script src="index.js"></script>    
+    </head>
+    <body align="center" class="container-fluid">
+        <h1 id='test'>Click anywhere on the grey square to throw a Boncing Ball !!!</h1>
+        <canvas id="canvas" width="900" height="600" style="background-color:rgb(71, 71, 69);"></canvas>
+        <script>
+            (() => setup())()
+        </script>
+        <script src="./helpers/calculator.test.js"></script>
+    </body>
+</html>
